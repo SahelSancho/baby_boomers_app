@@ -15,17 +15,15 @@ class _Tutorial1ScreenState extends State<Tutorial1Screen> {
   @override
   void initState() {
     super.initState();
-    // Vídeo sobre como enviar fotos e vídeos no WhatsApp
     _controller1 = YoutubePlayerController(
-      initialVideoId: 'hJqC9Hcof34', // ID do vídeo do YouTube
+      initialVideoId: 'dQw4w9WgXcQ',
       flags: const YoutubePlayerFlags(
         autoPlay: false,
         mute: false,
       ),
     );
-    // Vídeo sobre como enviar fotos de visualização única
      _controller2 = YoutubePlayerController(
-      initialVideoId: 'Xy7DDb-hXzM', // ID de outro vídeo
+      initialVideoId: 'Xy7DDb-hXzM',
       flags: const YoutubePlayerFlags(
         autoPlay: false,
         mute: false,
